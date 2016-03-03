@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int n;
+    while(scanf("%d",&n) != 0)
+    {
+        int b;
+        int sum=0;
+        int c=2;
+        for(b=0;b<n;b++)
+        {
+            sum+=c;
+            c+=3;
+        }
+        printf("%d",sum);
+        break;
+    }
+
+    return 0;
+}
